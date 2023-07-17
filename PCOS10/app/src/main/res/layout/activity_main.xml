@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".MainActivity">
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="Age (yrs)"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Weight (Kg)"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Height (Cm)"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/bloodgroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Blood Group"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/cycle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cycle (R/I)"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/cyclelength"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cycle length (days)"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/marriagestatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Marriage Status (Yrs)"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/pregnant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pregnant (Y/N)"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/aborptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No. of aborptions"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/hip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hip (inch)"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/waist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Waist (inch)"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/weightgain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Weight gain (Y/N)"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/hairgrowth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hair growth (Y/N)"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/skindarkening"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Skin darkening (Y/N)"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/hairloss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hair loss (Y/N)"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/pimples"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pimples (Y/N)"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/fastfood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fast food (Y/N)"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/regexercise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Reg. Exercise (Y/N)"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DETECT" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="379dp"
+            android:layout_height="223dp"
+            android:gravity="center"
+            android:text="Result will be displayed here" />
+    </LinearLayout>
+</ScrollView>
